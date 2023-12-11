@@ -17,7 +17,8 @@ Escribir un programa que al ingresar un valor numerico del 1 al 7 devuelva el di
  */
 
 
-using System.Timers;
+
+/*using System.Timers;
 
 Console.WriteLine("Ingresa un numero");
 var imput = Console.ReadLine();
@@ -32,7 +33,7 @@ if (numero > 0)
 if (numero < 0)
 	Console.WriteLine($"El numero {numero} es un entero negativo");
 
-Console.ReadLine();
+Console.ReadLine();*/
 
 
 
