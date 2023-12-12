@@ -30,5 +30,5 @@ entre piedra, papel y tijeras en cada ronda. Indica quién gana cada ronda y mue
 - Estructuras de control de flujo (condicionales, switch).
 - Uso de generación de números aleatorios.
 - Práctica con la interacción del usuario.
-
  */
+

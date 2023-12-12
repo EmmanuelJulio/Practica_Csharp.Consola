@@ -17,6 +17,124 @@ Escribir un programa que al ingresar un valor numerico del 1 al 7 devuelva el di
  */
 
 
+Console.WriteLine("Ingrese un numero del 1 al 7 para obtener el dia de la semana correspondiente");
+int valor = int.Parse(Console.ReadLine()!);
+/*
+lunes = 1 
+martes = 2
+miercoles = 3
+jueves = 4 
+viernes = 5
+sabado = 6
+domingo = 7
+ */
+//if (valor == 1)
+//	Console.WriteLine("lunes");
+//if (valor == 2)
+//    Console.WriteLine("martes");
+//if (valor == 3)
+//    Console.WriteLine("miercoles");
+//if (valor == 4)
+//    Console.WriteLine("jueves");
+//if (valor == 5)
+//    Console.WriteLine("Viernes");
+//if (valor == 6)
+//    Console.WriteLine("Sabado");
+//if (valor == 7)
+//    Console.WriteLine("Domingo");
+string dia = string.Empty;
+switch (valor)
+{
+	case 1:
+		dia = "Lunes";
+		break;
+    case 2:
+        dia = "Martes";
+        break;
+    case 3:
+        dia = "Miercoles";
+        break;
+    case 4:
+        dia = "Jueves";
+        break;
+    case 5:
+        dia = "Viernes";
+        break;
+    case 6:
+        dia = "Sabado";
+        break;
+    case 7:
+        dia = "Domingo";
+        break;
+}
+
+Console.WriteLine("El dia seleccionado es "+ dia);
+
+
+
+//Console.WriteLine("Ingrese un numero");
+//int numero = int.Parse(Console.ReadLine()!);
+
+//Console.WriteLine("Contando hasta " + numero + ":");
+
+//int contador = 1;
+
+//while (contador <= numero)
+//{
+//	Console.Write(contador);
+//	contador++;
+//}
+
+//Console.WriteLine("Ingrese un numero");
+//int numero = int.Parse(Console.ReadLine()!);
+
+//Console.WriteLine("Contando hasta " + numero +":");
+//for(int i = 1;i<= numero; i++)
+//{
+//	Console.Write(i);
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Console.WriteLine("Ingrese un numero");
+//int numero;
+
+//	try
+//	{
+//		numero = int.Parse(Console.ReadLine());
+//		if (numero < 0)
+//			Console.WriteLine("El numero es negativo");
+
+//		if (numero > 0)
+//			Console.WriteLine("El numero es positivo");
+
+//	}
+//	catch (Exception ex)
+//	{
+
+//		Console.WriteLine(ex.Message);
+//	}
+
+
+
+
+
+
+
+
+
+
+
 
 /*using System.Timers;
 
